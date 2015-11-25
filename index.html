@@ -12,6 +12,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
+      text-shadow: 1px 1px 2px black;
     }
 
     h1 {
@@ -28,6 +29,17 @@
       font-size: 140%;
     }
 
+    h3 a {
+      color: white;
+    }
+
+    .parent {
+      padding: 8%;
+      /*position: absolute;*/
+      height: 50%;
+      /*width: 30%;*/
+      /*top: 50%;*/
+    }
 
     .children {
     	height: 300px;
@@ -36,11 +48,12 @@
     	transform: 			translateY(-50%);
     }
   </style>
-  <h1>Your Degree</h1>
-  <h2>50% Off</h2>
-  <h3><a href="http://quottly.com">Learn More</a></h3>
   <div class="parent">
-    <!-- <div class="children">I'm vertically centered!</div> -->
+    <div class="children">
+      <h1>Your Degree</h1>
+      <h2>50% Off</h2>
+      <h3><a href="http://quottly.com">Learn More</a></h3>
+    </div>
   </div>
 </body>
 </html>
